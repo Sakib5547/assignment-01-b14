@@ -73,3 +73,57 @@ a{
     display:inline;
     margin: 220px auto 0;
 }
+
+#speaker-head{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.speaker div{
+    margin-top: 30px;;
+
+}
+
+.spkr a{
+    color:rgb(86, 86, 223);
+    font-size: 9px;
+    margin-top:10px;
+}
+
+.spkr h3{
+    font-size: 18px;
+    margin-top: 5px 0;
+    font-weight: bold;
+}
+
+.spkr p{
+    font-size: 12px;
+    margin: 5px;
+    
+}
+
+.spkr{
+        width: 450px;
+    padding: 10;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    background-color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.spkr img{
+    width: 100%;
+}
+
+.speaker{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: (2,1fr);
+    gap: 20px;
+    align-items: center;
+    margin:auto;
+    max-width: 1000px;
+}
